@@ -1,0 +1,26 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+.venv/
+
+# Ignore node modules
+node_modules/
+
+# Ignore frontend build output
+/dist/
+
+# Ignore local datasets and images
+501 Bottle Dataset*
+download_images*
+test_images/
+tmp/
+public/images/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+
+# Ignore screenshots if you don't want to commit them (remove this line if you want screenshots in repo)
+# screenshots/
